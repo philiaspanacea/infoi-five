@@ -1,12 +1,37 @@
  console.log ("helloooo")
 // let output = 0;
-// let plus = ".plus";
+// let plus = document.querySelector(".plus").addEventListener("click", function(){
+//     input();
+// });
 // let minus = ".minus";
 // let divide = ".divide";
 // let multiply = ".multiply";
 
-// function mathSum(){
-//     if (plus)
+// const num1 = Number(document.getElementById("number1").value);
+// const num2 = Number(document.getElementById("number2").value);
+
+// function calc(){
+//     if (plus){
+//         num1 + num2;
+//     }
+
+//     if (minus){
+//         num1 - num2;
+//     }
+
+//     if (divide){
+//         num1 / num2;
+//     }
+
+//     if (multiply){
+//         num1 * num2;
+//     }
+// }
+
+// function input(){
+//     document.querySelector(".input").addEventListener("click", function(){
+//         document.querySelector(".output").innerHTML = calc();
+//     })
 // }
 
 // PLUS FUNCTION
